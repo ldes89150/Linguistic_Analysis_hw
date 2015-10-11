@@ -1,0 +1,6 @@
+system("wget -N https://ceiba.ntu.edu.tw/course/6d0f76/content/1001_chinatimes.txt")
+system("wget -N https://ceiba.ntu.edu.tw/course/6d0f76/content/jieba.R")
+system("cat 1001_chinatimes.txt | Rscript jieba.R | tr '\n' ' ' > b01202065.seg")
+system("cat b01202065.seg | tr ' ' '\n' | sort | uniq -c | sort -r > b01202065.csv")
+system("rm 1001_chinatimes.txt")
+system("rm jieba.R")
