@@ -21,7 +21,6 @@ FreqMat <- data.frame(row.names = rownames(temp), Freq = rowSums(temp))
 FreqMat = FreqMat[order(FreqMat$Freq,decreasing = TRUE),,drop=FALSE]
 FreqMat
 
-as.matrix(FreqMat)
 
 write.table(FreqMat, file='b01202065.csv',col.names = FALSE, quote = FALSE)
 
