@@ -1,0 +1,83 @@
+﻿------     
+     
+- **學號: 輸入你的學號**
+
+- **author: 輸入你的名字**
+
+
+**請記得完成後, 按下 knit HTML 按鈕後, 上傳 html 檔案!!! (不要直接上傳 Rmd 檔案)**
+
+------    
+
+### HW 4-1 
+
+- http://cs224d.stanford.edu/lectures/CS224d-Lecture2.pdf slide 12
+
+- Given a corpus of 3 sentences:
+  1. I like deep learning.
+  2. I like NLP.
+  3. I enjoy flying.
+
+
+> a. Represent each word meaning in a matrix of  co-occurrence. (10%)
+
+
+```{r}
+# put your code here.
+```
+
+
+
+> b. How many times do _I_ and _like_ co-occur? (10%)
+
+```{r}
+# put your code here.
+```
+
+
+> c. How many times does _I_ occur? (10%)
+
+```{r}
+# put your code here.
+```
+
+
+> d. And _like_? (10%)
+
+```{r}
+# put your code here.
+```
+
+------
+
+### HW 4-2
+
+> a. Build a data.frame with colnames and rolnames for [https://ceiba.ntu.edu.tw/course/6d0f76/content/Word_Emotion_UTF8.csv]  (10%)
+
+```{r}
+# put your code here.
+```
+
+
+> b. Subset the last two words. (10%)
+
+```{r}
+# put your code here.
+```
+
+
+> c. Calculate the mean scores of two columns "happy" and "morning" relatively. (10%)
+
+```{r}
+# put your code here.
+```
+
+------
+
+**請記得完成後, 按下 knit HTML 按鈕後, 上傳 html 檔案!!! (不要直接上傳 Rmd 檔案)**
+
+
+
+- 別忘了還有一個 HW 4-3, 請以組別方式繳交一份 .sh 檔案。
+
+- 如有要做 bonus 題組的組別, 也請另外自創一份 Rmarkdown 檔案, 並將產生出的 html 檔案上傳至 ceiba。
